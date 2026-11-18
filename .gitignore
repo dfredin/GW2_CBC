@@ -1,0 +1,39 @@
+# Large/raw course datasets: GitHub ordinary Git has a 100-MiB file limit.
+*.h5
+*.hdf5
+*.hdf
+*.hdf4
+*.hdf5
+*.npy
+*.mov
+*.pptx
+*.json
+*.html
+*.csv
+*.png
+*.pt
+
+
+# Python and notebook temp files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Local results (not required to execute the exploration notebook)
+figures/
+outputs/
+cache/
+checkpoints/
+models/
+*.pt
+*.pth
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
